@@ -253,7 +253,7 @@ body {
 .man-rolls {
   height: 58vw;
   z-index: -1;
-  position: absolute;
+  position: relative;
 }
 
 .logo {
