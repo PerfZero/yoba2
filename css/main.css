@@ -608,6 +608,14 @@ button {
 }
 
 @media only screen and (max-width: 430px) {
+  .container {
+    width: 90%;
+    margin: 0;
+    padding-right: 10px;
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+  }
   .logo_g {
     height: 110px;
   }
@@ -615,6 +623,11 @@ button {
     font-size: 45px;
   }
 
+  .logo_g {
+    margin-left: -20px;
+    margin-right: -26px;
+    height: 110px;
+  }
   .text1-desk {
     font-size: 26px;
   }
@@ -622,6 +635,13 @@ button {
   .text-desk2 {
     padding-left: 22px;
     font-size: 23px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  .text-desk2-ru {
+    padding-left: 1px;
+    font-size: 22px;
     margin-top: 20px;
     padding-bottom: 50px;
   }
@@ -647,7 +667,18 @@ button {
     line-height: 100%;
   }
 
+  .section-title-ru {
+    font-size: 19px;
+    font-weight: 900;
+    color: #000;
+    line-height: 100%;
+  }
+
   .section-description {
     font-size: 15px;
+  }
+
+  .section-description-ru {
+    font-size: 11px;
   }
 }
