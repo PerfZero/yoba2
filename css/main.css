@@ -608,8 +608,46 @@ button {
 }
 
 @media only screen and (max-width: 430px) {
-  body {
-    zoom: 0.8; /* Измените это значение по вашему усмотрению */
-    /* или */
+  .logo_g {
+    height: 110px;
+  }
+  .text1-logo {
+    font-size: 45px;
+  }
+
+  .text1-desk {
+    font-size: 26px;
+  }
+
+  .text-desk2 {
+    padding-left: 22px;
+    font-size: 23px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  .man-rolls {
+    margin-top: 407px;
+    margin-left: 119px;
+    height: 520px;
+    transform: scale(-1, 1);
+  }
+
+  .block-text {
+    padding-top: 157px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 15px;
+  }
+
+  .section-title {
+    font-size: 22px;
+    font-weight: 900;
+    color: #000;
+    line-height: 100%;
+  }
+
+  .section-description {
+    font-size: 15px;
   }
 }
