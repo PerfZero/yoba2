@@ -541,11 +541,10 @@ button {
   }
 
   .block-text {
-    padding-top: 1px;
+    padding-top: 250px;
     display: flex;
     align-items: flex-start;
     margin-left: 15px;
-    margin-top: 144px;
   }
 
   .text1-logo {
@@ -553,7 +552,7 @@ button {
   }
 
   .man-rolls {
-    margin-top: 374px;
+    margin-top: 444px;
     margin-left: 175px;
     height: 651px;
     transform: scale(-1, 1);
