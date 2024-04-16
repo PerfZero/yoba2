@@ -481,10 +481,10 @@ button {
   }
 
   .text-desk2-ru {
-    font-size: 4.5vw;
-    padding-bottom: 2vw;
-    padding-top: 1vw;
-    font-weight: 700;
+    padding-left: 22px;
+    font-size: 28px;
+    margin-top: 20px;
+    padding-bottom: 50px;
   }
 
   .title-logo {
@@ -508,7 +508,7 @@ button {
   }
 
   .section-title-ru {
-    font-size: 21px;
+    font-size: 27px;
     font-weight: 900;
     color: #000;
     line-height: 100%;
@@ -576,7 +576,7 @@ button {
   }
 
   .section-description-ru {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .star_1 {
