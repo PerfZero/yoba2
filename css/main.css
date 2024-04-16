@@ -507,6 +507,13 @@ button {
     line-height: 100%;
   }
 
+  .section-title-ru {
+    font-size: 21px;
+    font-weight: 900;
+    color: #000;
+    line-height: 100%;
+  }
+
   .section-center {
     padding-top: 50px;
   }
@@ -527,7 +534,6 @@ button {
     font-size: 18px;
     font-weight: 900;
     color: #f52341;
-    padding-left: 126px;
   }
 
   .section-description {
@@ -547,9 +553,9 @@ button {
   }
 
   .man-rolls {
-    margin-top: 445px;
-    margin-left: 218px;
-    height: 570px;
+    margin-top: 374px;
+    margin-left: 175px;
+    height: 651px;
     transform: scale(-1, 1);
   }
 
@@ -570,7 +576,7 @@ button {
   }
 
   .section-description-ru {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .star_1 {
@@ -604,7 +610,7 @@ button {
 
 @media only screen and (max-width: 430px) {
   body {
-    zoom: 0.85; /* Измените это значение по вашему усмотрению */
+    zoom: 0.8; /* Измените это значение по вашему усмотрению */
     /* или */
   }
 }
