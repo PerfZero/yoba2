@@ -177,8 +177,8 @@ body {
 }
 
 .text1-logo {
-  font-size: 95px;
-  font-weight: 500;
+  font-size: 5vw;
+  font-weight: 700;
 }
 
 .text1-logo-ru {
@@ -251,12 +251,16 @@ body {
 }
 
 .man-rolls {
+  height: 58vw;
   z-index: -1;
   position: absolute;
 }
 
 .logo {
   display: flex;
+}
+.logo_g {
+  height: 11vw;
 }
 
 button {
@@ -338,6 +342,130 @@ button {
   top: 359px;
 }
 
+@media only screen and (max-width: 1280px) {
+  .man-rolls {
+    z-index: -1;
+    position: absolute;
+    height: 63vw;
+  }
+
+  .section-center {
+    padding-top: 50px;
+  }
+
+  .section-center-ru {
+    padding-top: 50px;
+  }
+
+  .title-logo {
+    padding-left: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title-logo-ru {
+    padding-left: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo_g {
+    height: 10vw;
+  }
+
+  .text1-logo {
+    font-size: 6vw;
+    font-weight: 500;
+  }
+
+  .text1-logo-ru {
+    font-size: 6vw;
+    font-weight: 500;
+  }
+
+  .text-desk2 {
+    font-size: 3vw;
+    padding-bottom: 2vw;
+    padding-top: 1vw;
+    font-weight: 700;
+  }
+
+  .text-desk2-ru {
+    font-size: 2vw;
+    padding-bottom: 2vw;
+    padding-top: 1vw;
+    font-weight: 700;
+  }
+
+  .block-text {
+    padding-right: 10px;
+    padding-top: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .block-text-ru {
+    padding-right: 10px;
+    padding-top: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .section-title {
+    padding-right: 3px;
+    font-size: 3.5vw;
+    font-weight: 900;
+    color: #000;
+    line-height: 100%;
+  }
+
+  .section-title-ru {
+    padding-right: 3px;
+    font-size: 3.5vw;
+    font-weight: 900;
+    color: #000;
+    line-height: 100%;
+  }
+
+  .section-description-color {
+    font-size: 3vw;
+    font-weight: 900;
+    color: #f52341;
+  }
+
+  .section-description-color-ru {
+    font-size: 3vw;
+    font-weight: 900;
+    color: #f52341;
+  }
+
+  .section-description {
+    font-size: 2vw;
+  }
+
+  .section-description-ru {
+    font-size: 2vw;
+  }
+
+  button {
+    border: 0px;
+    color: #fff;
+    margin-bottom: 1.5vw;
+    height: 3.5vw;
+    font: inherit;
+    background-color: #f52341;
+    width: 18vw;
+    font-weight: 900;
+    font-size: 2vw;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   .container {
     width: 90%; /* Ширина контейнера будет составлять 90% ширины экрана */
@@ -350,6 +478,13 @@ button {
 
   .logo_g {
     height: 150px;
+  }
+
+  .text-desk2-ru {
+    font-size: 4.5vw;
+    padding-bottom: 2vw;
+    padding-top: 1vw;
+    font-weight: 700;
   }
 
   .title-logo {
@@ -372,15 +507,20 @@ button {
     line-height: 100%;
   }
 
-  .section-title-ru {
-    font-size: 28px;
-    font-weight: 900;
-    color: #000;
-    line-height: 100%;
-  }
-
   .section-center {
     padding-top: 50px;
+  }
+
+  button {
+    border: 0px;
+    color: #fff;
+    margin-bottom: 3.5vw;
+    height: 7.5vw;
+    font: inherit;
+    background-color: #f52341;
+    width: 47vw;
+    font-weight: 900;
+    font-size: 4vw;
   }
 
   .section-description-color {
@@ -390,18 +530,8 @@ button {
     padding-left: 126px;
   }
 
-  .section-description-color-ru {
-    font-size: 18px;
-    font-weight: 900;
-    color: #f52341;
-  }
-
   .section-description {
     font-size: 22px;
-  }
-
-  .section-description-ru {
-    font-size: 16px;
   }
 
   .block-text {
@@ -409,47 +539,21 @@ button {
     display: flex;
     align-items: flex-start;
     margin-left: 15px;
-    margin-top: 190px;
-  }
-
-  .block-text-ru {
-    padding-top: 1px;
-    display: flex;
-    align-items: flex-start;
-    margin-left: 15px;
-    margin-top: 190px;
+    margin-top: 144px;
   }
 
   .text1-logo {
     font-size: 70px;
   }
 
-  .title-logo-ru {
-    padding-left: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .text1-logo-ru {
-    font-size: 60px;
-  }
-
   .man-rolls {
-    margin-top: 531px;
-    margin-left: 179px;
-    height: 680px;
+    margin-top: 387px;
+    margin-left: 218px;
+    height: 570px;
     transform: scale(-1, 1);
   }
 
   .text-desk2 {
-    padding-left: 22px;
-    font-size: 28px;
-    margin-top: 20px;
-    padding-bottom: 50px;
-  }
-
-  .text-desk2-ru {
     padding-left: 22px;
     font-size: 28px;
     margin-top: 20px;
@@ -463,6 +567,10 @@ button {
   .lang-mobile {
     align-self: end;
     display: flex;
+  }
+
+  .section-description-ru {
+    font-size: 18px;
   }
 
   .star_1 {
