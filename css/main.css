@@ -617,12 +617,12 @@ button {
 @media only screen and (max-width: 430px) {
   .container {
     height: 100dvh;
+    transition: height 1 linear;
     margin: 0;
     padding-right: 10px;
     display: flex;
     width: max-content;
     flex-direction: column;
-    transition: height 0.2 linear;
   }
   .logo_g {
     margin-left: -20px;
