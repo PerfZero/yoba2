@@ -31,7 +31,6 @@
 body {
   position: relative;
   font-family: "Museo Sans Cyrl", sans-serif;
-  
 }
 
 h1 {
@@ -54,7 +53,6 @@ html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
-  overflow: hidden;
 }
 
 /* Remove default margin in favour of better control in authored CSS */
@@ -345,8 +343,6 @@ button {
 }
 
 @media only screen and (max-width: 1280px) {
-  
-
   .man-rolls {
     z-index: -1;
     position: absolute;
@@ -470,15 +466,13 @@ button {
   }
 }
 
-@media only screen and (max-width: 576px ) {
-
-
+@media only screen and (max-width: 576px) {
   .container {
     width: 90%; /* Ширина контейнера будет составлять 90% ширины экрана */
-    margin: 0 ;
+    margin: 0;
     padding-right: 10px;
     display: flex;
-    
+
     flex-direction: column;
   }
 
@@ -617,7 +611,6 @@ button {
 }
 
 @media only screen and (max-width: 430px) {
-  
   .container {
     margin: 0;
     padding-right: 10px;
@@ -682,7 +675,6 @@ button {
     font-size: 22px;
     margin-top: 20px;
     padding-bottom: 50px;
-    
   }
 
   .section-title-ru {
