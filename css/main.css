@@ -622,6 +622,7 @@ button {
     display: flex;
     width: max-content;
     flex-direction: column;
+    transition: height 0.2 linear;
   }
   .logo_g {
     margin-left: -20px;
