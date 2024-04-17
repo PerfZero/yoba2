@@ -685,7 +685,7 @@ button {
 
   .text-desk2-ru {
     padding-left: 1px;
-    font-size: 20px;
+    /* font-size: 20px; */
     margin-top: 20px;
     padding-bottom: 50px;
   }
