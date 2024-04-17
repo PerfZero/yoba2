@@ -629,7 +629,7 @@ button {
     height: 21vw;
   }
   .text1-logo {
-    /* font-size: 45px; */
+    font-weight: 900;
   }
 
   .text1-desk {
