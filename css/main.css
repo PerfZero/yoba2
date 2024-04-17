@@ -645,19 +645,19 @@ button {
   }
 
   .man-rolls {
-    top: 243px;
+    top: 279px;
     z-index: -1;
     position: absolute;
     /* height: auto; */
     /* height: 500px; */
-    left: 70px;
+    left: 65px;
     max-height: 100%;
     max-width: 100%;
-    transform: scale(-0.65, 0.65);
+    transform: scale(-0.7, 0.7);
   }
 
   .block-text {
-    padding-top: 98px;
+    padding-top: 128px;
     display: flex;
     align-items: flex-start;
     margin-left: 15px;
