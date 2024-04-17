@@ -92,6 +92,10 @@ label {
   line-height: 1.1;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* Balance text wrapping on headings */
 h1,
 h2,
