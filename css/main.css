@@ -616,7 +616,6 @@ button {
 
 @media only screen and (max-width: 430px) {
   .container {
-    height: 100dvh;
     transition: height 0.3s linear;
     margin: 0;
     padding-right: 10px;
@@ -658,7 +657,7 @@ button {
   }
 
   .block-text {
-    padding-top: 108px;
+    padding-top: 128px;
     display: flex;
     align-items: flex-start;
     margin-left: 15px;
@@ -669,6 +668,10 @@ button {
     font-weight: 900;
     color: #000;
     line-height: 100%;
+  }
+
+  .section-order {
+    height: 10dvh;
   }
 
   .section-description {
