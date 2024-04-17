@@ -484,7 +484,7 @@ button {
 
   .text-desk2-ru {
     padding-left: 22px;
-    font-size: 4vw;
+    font-size: 5vw;
     margin-top: 20px;
     padding-bottom: 50px;
   }
@@ -567,7 +567,7 @@ button {
 
   .text-desk2 {
     padding-left: 22px;
-    font-size: 5vw;
+    font-size: 5.8vw;
     margin-top: 20px;
     padding-bottom: 50px;
   }
@@ -651,7 +651,7 @@ button {
     position: absolute;
     /* height: auto; */
     /* height: 500px; */
-    left: 65px;
+    left: 56px;
     max-height: 100%;
     max-width: 100%;
     transform: scale(-0.7, 0.7);
