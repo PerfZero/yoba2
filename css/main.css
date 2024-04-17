@@ -31,6 +31,7 @@
 body {
   position: relative;
   font-family: "Museo Sans Cyrl", sans-serif;
+  
 }
 
 h1 {
@@ -53,6 +54,7 @@ html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
+  overflow: hidden;
 }
 
 /* Remove default margin in favour of better control in authored CSS */
@@ -343,6 +345,8 @@ button {
 }
 
 @media only screen and (max-width: 1280px) {
+  
+
   .man-rolls {
     z-index: -1;
     position: absolute;
@@ -466,13 +470,15 @@ button {
   }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px ) {
+
+
   .container {
     width: 90%; /* Ширина контейнера будет составлять 90% ширины экрана */
-    margin: 0 auto;
+    margin: 0 ;
     padding-right: 10px;
     display: flex;
-    width: max-content;
+    
     flex-direction: column;
   }
 
@@ -484,7 +490,7 @@ button {
     padding-left: 22px;
     font-size: 28px;
     margin-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 
   .title-logo {
@@ -501,21 +507,22 @@ button {
   }
 
   .section-title {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 900;
     color: #000;
     line-height: 100%;
+    padding: 0px;
   }
 
   .section-title-ru {
-    font-size: 27px;
+    font-size: 15px;
     font-weight: 900;
     color: #000;
     line-height: 100%;
   }
 
   .section-center {
-    padding-top: 50px;
+    padding-top: 30px;
   }
 
   button {
@@ -531,30 +538,32 @@ button {
   }
 
   .section-description-color {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 900;
     color: #f52341;
   }
 
   .section-description {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .block-text {
-    padding-top: 250px;
+    padding-top: 10px;
     display: flex;
     align-items: flex-start;
     margin-left: 15px;
   }
 
   .text1-logo {
-    font-size: 70px;
+    font-size: 40px;
   }
 
   .man-rolls {
-    margin-top: 444px;
-    margin-left: 175px;
-    height: 651px;
+    margin-right: 0px;
+    margin-top: 40vh;
+    margin-left: 57vw;
+    height: 50%;
+    max-width: 50%;
     transform: scale(-1, 1);
   }
 
@@ -608,17 +617,12 @@ button {
 }
 
 @media only screen and (max-width: 430px) {
-  body {
-    overflow-x: hidden; /* отключает горизонтальный скролл */
-    overflow-y: scroll;
-  }
+  
   .container {
-    width: 100%;
-    max-width: 100%;
     margin: 0;
     padding-right: 10px;
     display: flex;
-
+    width: max-content;
     flex-direction: column;
   }
   .logo_g {
@@ -645,27 +649,17 @@ button {
   }
 
   .man-rolls {
-    margin-top: 407px;
-    margin-left: 125px;
-    height: 520px;
+    margin-top: 60vh;
+    margin-left: 50vw;
+    height: 40vh;
     transform: scale(-1, 1);
   }
 
   .block-text {
-    padding-top: 157px;
+    padding-top: 100px;
     display: flex;
     align-items: flex-start;
     margin-left: 15px;
-  }
-
-  .lang-mobile {
-    margin-right: 31px;
-    align-self: end;
-    display: flex;
-  }
-
-  .section-center {
-    padding-top: 50px;
   }
 
   .section-title {
@@ -688,6 +682,7 @@ button {
     font-size: 22px;
     margin-top: 20px;
     padding-bottom: 50px;
+    
   }
 
   .section-title-ru {
