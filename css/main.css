@@ -615,6 +615,10 @@ button {
 }
 
 @media only screen and (max-width: 430px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   .container {
     margin: 0;
     padding-right: 10px;
@@ -640,7 +644,7 @@ button {
 
   .text-desk2 {
     padding-left: 1px;
-    font-size: 23px;
+    /* font-size: 23px; */
     margin-top: 20px;
     padding-bottom: 50px;
   }
