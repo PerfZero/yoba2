@@ -53,6 +53,7 @@ html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
+  overflow-x: hidden;
 }
 
 /* Remove default margin in favour of better control in authored CSS */
@@ -642,9 +643,9 @@ button {
   }
 
   .man-rolls {
-    margin-top: 50vh;
-    margin-left: 38vw;
-    height: 40vh;
+    margin-top: 29em;
+    margin-left: 10em;
+    height: 24em;
     transform: scale(-1.5, 1.5);
   }
 
