@@ -648,7 +648,7 @@ button {
   .man-rolls {
     top: 328px;
     z-index: -1;
-    position: fixed;
+    position: absolute;
     /* height: auto; */
     /* height: 500px; */
     left: 15vw;
