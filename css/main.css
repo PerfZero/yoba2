@@ -615,6 +615,11 @@ button {
 }
 
 @media only screen and (max-width: 430px) {
+  html,
+  body {
+    height: 100dvh;
+  }
+
   .container {
     transition: height 0.3s linear;
     margin: 0;
@@ -668,10 +673,6 @@ button {
     font-weight: 900;
     color: #000;
     line-height: 100%;
-  }
-
-  .section-order {
-    height: 10dvh;
   }
 
   .section-description {
