@@ -517,7 +517,7 @@ button {
   }
 
   .section-center {
-    padding-top: 50px;
+    padding-top: 20px;
   }
 
   button {
@@ -616,7 +616,6 @@ button {
 
 @media only screen and (max-width: 430px) {
   .container {
-    height: 100dvh;
     margin: 0;
     padding-right: 10px;
     display: flex;
