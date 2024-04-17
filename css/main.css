@@ -518,7 +518,6 @@ button {
 
   .section-center {
     padding-top: 20px;
-    position: fixed;
   }
 
   button {
@@ -617,7 +616,6 @@ button {
 
 @media only screen and (max-width: 430px) {
   .container {
-    height: 100dvh;
     transition: height 0.3s linear;
     margin: 0;
     padding-right: 10px;
@@ -647,7 +645,7 @@ button {
   }
 
   .man-rolls {
-    top: 312px;
+    top: 205px;
     z-index: -1;
     position: absolute;
     /* height: auto; */
