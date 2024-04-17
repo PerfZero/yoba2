@@ -645,7 +645,7 @@ button {
   }
 
   .man-rolls {
-    top: 205px;
+    top: 174px;
     z-index: -1;
     position: absolute;
     /* height: auto; */
@@ -657,7 +657,7 @@ button {
   }
 
   .block-text {
-    padding-top: 25vw;
+    padding-top: 17vw;
     display: flex;
     align-items: flex-start;
     margin-left: 15px;
