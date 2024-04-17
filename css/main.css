@@ -347,7 +347,7 @@ button {
 @media only screen and (max-width: 1300px) {
   .man-rolls {
     z-index: -1;
-    position: absolute;
+    position: fixed;
     height: auto;
     max-height: 100%;
   }
@@ -623,17 +623,15 @@ button {
     flex-direction: column;
   }
   .logo_g {
+    margin-left: -20px;
+    margin-right: -26px;
     height: 110px;
+    height: 21vw;
   }
   .text1-logo {
     /* font-size: 45px; */
   }
 
-  .logo_g {
-    margin-left: -20px;
-    margin-right: -26px;
-    height: 110px;
-  }
   .text1-desk {
     font-size: 7vw;
   }
