@@ -31,7 +31,6 @@
 body {
   position: relative;
   font-family: "Museo Sans Cyrl", sans-serif;
-  
 }
 
 h1 {
@@ -345,8 +344,6 @@ button {
 }
 
 @media only screen and (max-width: 1280px) {
-  
-
   .man-rolls {
     z-index: -1;
     position: absolute;
@@ -470,15 +467,13 @@ button {
   }
 }
 
-@media only screen and (max-width: 576px ) {
-
-
+@media only screen and (max-width: 576px) {
   .container {
     width: 90%; /* Ширина контейнера будет составлять 90% ширины экрана */
-    margin: 0 ;
+    margin: 0;
     padding-right: 10px;
     display: flex;
-    
+
     flex-direction: column;
   }
 
@@ -617,7 +612,6 @@ button {
 }
 
 @media only screen and (max-width: 430px) {
-  
   .container {
     margin: 0;
     padding-right: 10px;
@@ -649,14 +643,15 @@ button {
   }
 
   .man-rolls {
-    margin-top: 60vh;
-    margin-left: 50vw;
+    margin-top: 50vh;
+    margin-left: 38vw;
     height: 40vh;
-    transform: scale(-1, 1);
+    transform: scale(-1.5, 1.5);
+}
   }
 
   .block-text {
-    padding-top: 100px;
+    padding-top: 183px;
     display: flex;
     align-items: flex-start;
     margin-left: 15px;
@@ -682,7 +677,6 @@ button {
     font-size: 22px;
     margin-top: 20px;
     padding-bottom: 50px;
-    
   }
 
   .section-title-ru {
