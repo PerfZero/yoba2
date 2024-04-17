@@ -518,6 +518,7 @@ button {
 
   .section-center {
     padding-top: 20px;
+    position: fixed;
   }
 
   button {
